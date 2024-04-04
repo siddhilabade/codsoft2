@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AgriTreadHub</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+
+    <link rel="stylesheet" type="text/css" href="i.css" />
+
+
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo"> <i class="fa fa-shopping-basket"></i>Grocery</a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#feature">feature</a>
+        <a href="#products">products</a>
+        <a href="#categroies">categories</a>
+        <a href="#Reviewer">Reviewer</a>
+        <a href="#blogs">blogs</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fa fa-bars" id="menu-btn"></div>
+        <div class="fa fa-search" id="search-btn"></div>
+        <div class="fa fa-shopping-cart" id="cart-btn"></div>
+        <div class="fa fa-user" id="login-btn"></div>
+      </div>
+
+      <form class="search-form">
+        <input type="search" id="search-box" placeholder="Search here....." />
+        <label for="search-box" class="fa fa-search"></label>
+      </form>
+
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fa fa-trash"></i>
+          <img src="orange.jpeg" />
+          <div class="content">
+            <h3>Watermelon</h3>
+            <span class="price">70 Rs</span>
+            <span class="quantity">Qty:1</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fa fa-trash"></i>
+          <img src="images/cart-img-2.png" />
+          <div class="content">
+            <h3>Onion</h3>
+            <span class="price">50 Rs</span>
+            <span class="quantity">Qty:1 kg</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fa fa-trash"></i>
+          <img src="images/ok.png" />
+          <div class="content">
+            <h3>Orange</h3>
+            <span class="price">150 Rs/-</span>
+            <span class="quantity">Qty:1 kg</span>
+          </div>
+        </div>
+
+        <div class="total">total: $18.97</div>
+        <a href="#" class="btn">Checkout</a>
+      </div>
+
+
+      <form action="login.php" method="POST" class="login-form">
+        <h3>Login now</h3>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email" class="box">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password" class="box">
+        <p>Forget your password <a href="#"> Click here</a></p>
+        <p>Don't have an Account <a href="#"> Create now</a></p>
+        <input type="submit" value="Login Now" class="btn" >
+      </form>
+    </header>
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Fresh And <span>Organic</span> Product For You</h3>
+        <p>
+          This website Is Desined by the HEXASQUAD So that website will be
+          helpful for you to get your product,buy and share
+        </p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <h1 class="heading">our <span>feature</span></h1>
+      <div class="box-container">
+        <img src="images/feature-img-1.png" />
+        <h3>Fresh And Organic</h3>
+        <p>
+         Rich Flavours Fresh From The Farm.We Supply High Quality Organic Food
+        </p>
+        <a href="#" class="btn">read more</a>
+      </div>
+      <div class="box-container">
+        <img src="images/feature-img-2.png" />
+        <h3>Free Delivery</h3>
+        <p>
+         Trust In The Fastest & Most Reliable Delivery Service
+          </p>
+         <a href="#" class="btn">read more</a>
+      </div>
+      <div class="box-container">
+        <img src="images/feature-img-3.png" alt="" />
+        <h3>Easy Payment</h3>
+        <p>
+          We Provides Customers With a Reliable,Secure & Smooth Online & Offline Payments
+        </p>
+        <a href="#" class="btn">read more</a>
+      </div>
+    </section>
+
+    
+  </section> 
+    <!-- ------our product section----- -->
+    <section class="products" id="products">
+      <h1 class="heading">our<span>products</span></h1>
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="images/product-1.png" />
+            <h1>fresh orange</h1>
+            <div class="price">$12.99/--15.99</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+            <a href="" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="images/product-2.png" />
+            <h1>fresh Onion</h1>
+            <div class="price">$12.99/--15.99</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+            <a href="" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="images/product-8.png" height="400px" />
+            <h1>fresh Lemon</h1>
+            <div class="price">$12.99/--15.99</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+            <a href="" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="images/product-4.png" />
+            <h1>fresh Cabbage</h1>
+            <div class="price">$12.99/--15.99</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+            <a href="" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Rev iew section-->>
+    <!-- Review section-->>
+    <section class="review" id="review">
+      <h1 class="heading">Customer's<span>Review</h1>
+          <div class="review-slider">
+              <div class="wrapper"></div>
+    <div class="box">
+      <img src="images/pic-1.png">
+      <p>It is the best website has the customer relations about
+           any details of package. In any case, they are really willing 
+           to solve the problem. There are lots
+           of food variety compare to other websites, which 
+           is great.</p>
+           <h3>Harry Deo</h3>
+           <div class=" stars"> 
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+          </div>
+    </div>
+    <div class="box">
+      <img src="images/pic-2.png">
+      <p>Excellent as always, recommend this store 100%.
+       Fast dispatch, fast delivery and fair prices.</p>
+           <h3>Stuart</h3>
+           <div class=" stars"> 
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+          </div>
+    </div>
+    <div class="box">
+      <img src="images/pic-3.png">
+      <p>They were always accessible and open to help 
+      when I had a problem regarding the delivery address</p>
+           <h3>Albert</h3>
+           <div class=" stars"> 
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+          </div>
+    </div>
+
+    <section class="blogs" id="blogs">
+      <h1 class="heading">Our <span>Blogs</span></h1>
+      <div class="box-continer">
+        <div class="box">
+          <img src="images/blog-1.jpg"  height="300px">
+          <div class="content">
+            <div class="icon">
+              <a href="#"><i class="fa fa-user"></i>By User</a>
+              <a href="#"><i class="fa fa-calender">BY user</i></a>
+          </div>  
+          <h3>Fresh and Organic Vegetabels and Fruits </h3>
+          <p>Fruit and vegetables are a good source of vitamins and minerals,<br> including folate, vitamin C and potassium.</p>
+            <a href="#"class="btn">read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/blog-2.jpg" height="300px">
+          <div class="content">
+            <div class="icon">
+              <a href="#"><i class="fa fa-user"></i>By User</a>
+              <a href="#"><i class="fa fa-calender">BY user</i></a>
+          </div>  
+          <h3>Fresh and Organic Vegetabels and Fruits </h3>
+          <p>The anti-inflammatory properties of various fruits and vegetables <br> help reduce chronic inflammation in the body.</p>
+            <a href="#"class="btn">read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/blog-3.jpg" height="300px">
+          <div class="content">
+            <div class="icon">
+              <a href="#"><i class="fa fa-user"></i>By User</a>
+              <a href="#"><i class="fa fa-calender">BY user</i></a>
+          </div>  
+          <h3>Fresh and Organic Vegetabels and Fruits </h3>
+          <p>Fruit and vegetables are a good source of vitamins and minerals,<br> including folate, vitamin C and potassium.</p>
+            <a href="#"class="btn">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+<!---Footer section-->
+<section class="footer">
+  <div class="box-container"> 
+    <div class="box"> 
+      <h3>Groco <i class="fa fa-shopping-basket"></i></h3>
+      <p>Feel Free To Follow Us On Our Social Media Handlers All
+        The Links Are Given Below.
+
+        <div class="share">
+          <a href=class="fa fa-facebook"></a>
+        </div>
+      </p>
+    </div>
+  </div>
+</section>
+<!---Footer section-->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
